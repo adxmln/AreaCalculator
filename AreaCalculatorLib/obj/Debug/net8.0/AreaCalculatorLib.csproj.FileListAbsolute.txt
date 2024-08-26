@@ -1,0 +1,11 @@
+C:\Users\Пользователь\Desktop\Тестовые\AreaCalculator\AreaCalculatorLib\bin\Debug\net8.0\AreaCalculatorLib.deps.json
+C:\Users\Пользователь\Desktop\Тестовые\AreaCalculator\AreaCalculatorLib\bin\Debug\net8.0\AreaCalculatorLib.dll
+C:\Users\Пользователь\Desktop\Тестовые\AreaCalculator\AreaCalculatorLib\bin\Debug\net8.0\AreaCalculatorLib.pdb
+C:\Users\Пользователь\Desktop\Тестовые\AreaCalculator\AreaCalculatorLib\obj\Debug\net8.0\AreaCalculatorLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Пользователь\Desktop\Тестовые\AreaCalculator\AreaCalculatorLib\obj\Debug\net8.0\AreaCalculatorLib.AssemblyInfoInputs.cache
+C:\Users\Пользователь\Desktop\Тестовые\AreaCalculator\AreaCalculatorLib\obj\Debug\net8.0\AreaCalculatorLib.AssemblyInfo.cs
+C:\Users\Пользователь\Desktop\Тестовые\AreaCalculator\AreaCalculatorLib\obj\Debug\net8.0\AreaCalculatorLib.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\Desktop\Тестовые\AreaCalculator\AreaCalculatorLib\obj\Debug\net8.0\AreaCalculatorLib.dll
+C:\Users\Пользователь\Desktop\Тестовые\AreaCalculator\AreaCalculatorLib\obj\Debug\net8.0\refint\AreaCalculatorLib.dll
+C:\Users\Пользователь\Desktop\Тестовые\AreaCalculator\AreaCalculatorLib\obj\Debug\net8.0\AreaCalculatorLib.pdb
+C:\Users\Пользователь\Desktop\Тестовые\AreaCalculator\AreaCalculatorLib\obj\Debug\net8.0\ref\AreaCalculatorLib.dll
