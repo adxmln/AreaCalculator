@@ -1,0 +1,58 @@
+SELECT 
+    p.ProductName, 
+    c.CategoryName
+FROM 
+    Products p
+LEFT JOIN 
+    ProductCategories pc ON p.ProductID = pc.ProductID
+LEFT JOIN 
+    Categories c ON pc.CategoryID = c.CategoryID;
+
+
+-- При проектировании таблиц необходима промежуточная, связывающая продукты и категории: "ProductCategories"
+
+
+-- Пример создания БД:
+
+CREATE TABLE Products (
+ProductID INT PRIMARY KEY,
+ProductName VARCHAR(100) NOT NULL
+);
+CREATE TABLE Categories (
+CategoryID INT PRIMARY KEY,
+CategoryName VARCHAR(100) NOT NULL
+);
+CREATE TABLE ProductCategories (
+ProductID INT,
+CategoryID INT,
+PRIMARY KEY (ProductID, CategoryID),
+FOREIGN KEY (ProductID) REFERENCES Products(ProductID),
+FOREIGN KEY (CategoryID) REFERENCES Categories(CategoryID)
+);
+
+-- Пример наполнения:
+
+INSERT INTO Products (ProductID, ProductName)
+VALUES
+(1, 'Хлеб'),
+(2, 'Чай'),
+(3, 'Сахар'),
+(4, 'Яйца'),
+(5, 'Колбаса');
+
+INSERT INTO Categories (CategoryID, CategoryName)
+VALUES
+(1, 'Категория 1'),
+(2, 'Категория 2'),
+(3, 'Категория 3'),
+(4, 'Категория 4');
+
+INSERT INTO ProductCategories (ProductID, CategoryID)
+VALUES
+(1, 1),
+(1, 2),
+(2, 1),
+(2, 3),
+(3, 2),
+(3, 4),
+(4, 3);
